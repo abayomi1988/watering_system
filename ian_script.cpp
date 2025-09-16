@@ -3,7 +3,7 @@ using namespace std;
 
 int main() {
     // Variable to track which day we are on
-    int day = 1;
+    int day = 5;
 
     // Variables for soil moisture and rainfall input
     float soilMoisture;
