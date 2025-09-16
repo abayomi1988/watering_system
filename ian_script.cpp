@@ -9,7 +9,7 @@ int main() {
     float soilMoisture;
     float rainfall;
 
-    cout << "=== Irrigation Schedule (5 Days) ===" << endl;
+    cout << "=== Irrigation Schedule (10 Days) ===" << endl;
 
     // Loop through 5 days
     while (day <= 5) {
