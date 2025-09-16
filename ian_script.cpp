@@ -9,10 +9,10 @@ int main() {
     float soilMoisture;
     float rainfall;
 
-    cout << "=== Irrigation Schedule (3 Days) ===" << endl;
+    cout << "=== Irrigation Schedule (5 Days) ===" << endl;
 
-    // Loop through 3 days
-    while (day <= 3) {
+    // Loop through 5 days
+    while (day <= 5) {
         // Ask user for soil moisture percentage
         cout << "Enter soil moisture (%) for Day " << day << ": ";
         cin >> soilMoisture;
@@ -22,7 +22,7 @@ int main() {
         cin >> rainfall;
 
         // Branching (decision making)
-        if (soilMoisture < 35 && rainfall < 5) {
+        if (soilMoisture < 30 && rainfall < 10) {
             // If soil is dry AND little rain → irrigate
             cout << "Day " << day << ": Irrigation needed (20 L/m³)" << endl;
         }
